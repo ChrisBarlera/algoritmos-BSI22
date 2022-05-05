@@ -1,3 +1,3 @@
 # Descrição
 
-Aula introdutória à linguagem python, demonstrando como escreverseus primeiros programas.
+Aula introdutória à linguagem python, demonstrando como escrever os primeiros programas.
