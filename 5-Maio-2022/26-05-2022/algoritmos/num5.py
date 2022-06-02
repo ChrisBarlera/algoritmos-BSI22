@@ -1,5 +1,5 @@
-litros = float(input("Litros vendidos: "))
 tipo = input("Tipo de combustível(A ou G): ")
+litros = float(input("Litros vendidos: "))
 
 precoAlcool = 6.5
 precoGasolina = 7.2
