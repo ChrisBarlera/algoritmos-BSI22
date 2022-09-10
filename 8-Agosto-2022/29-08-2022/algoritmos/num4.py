@@ -15,8 +15,10 @@ for i in range(tamanhoListas):
     y.append(int(input("Número inteiro: ")))
 
 z = []
-for i in range(len(y)-1, -1, -1):
-    indiceX = len(y) -1 - i
+
+yTamanhoReal = len(y)-1
+for i in range(yTamanhoReal, -1, -1):
+    indiceX = yTamanhoReal - i
     produto = x[indiceX] * y[i]
     z.append(produto)
 

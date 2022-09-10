@@ -1,7 +1,7 @@
 # Descrição
 Aula inicial sobre **listas** em Python, detalhando suas funcionalidades e mostrando como escrevê-las.
 
-Listas são muito parecidas com os arrays porém trazem uma maior flexibilidade, podendo aumentar e diminuir de tamanho dinamicamente e não se limita a valores homogêneos.
+Listas são muito parecidas com os arrays porém trazem uma maior flexibilidade, podendo aumentar e diminuir de tamanho dinamicamente e não se limita a valores homogêneos (uma lista é heterogênea).
 
 Exemplo de código:
 ```
