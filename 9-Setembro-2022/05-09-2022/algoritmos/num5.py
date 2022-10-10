@@ -2,7 +2,7 @@ import numpy
 
 print('////INTERCALANDO VETORES////')
 
-TAMANHO = 5
+TAMANHO = 10
 
 primeiroArray = numpy.zeros(TAMANHO, dtype=int)
 segundoArray = numpy.zeros(TAMANHO, dtype=int)

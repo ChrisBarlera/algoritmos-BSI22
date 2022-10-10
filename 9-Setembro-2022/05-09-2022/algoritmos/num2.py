@@ -10,17 +10,17 @@ vetor = numpy.zeros(TAMANHO, dtype=int)
 for i in range(TAMANHO):
     vetor[i] = int(input("Número inteiro: "))
 
-#Passa pelo vetor fazendo a verificação
-for num in vetor:
+print()
+
+#Passa pelo vetor fazendo a verificação de primos
+for i in range(TAMANHO):
     qtdDivExatas = 0
-    for i in range(1, num):
-        if num % i == 0:
+    num = vetor[i]
+    for j in range(1, num+1):
+        if num % j == 0:
             qtdDivExatas+=1
     if qtdDivExatas == 2:
-        print(f"")
+        print(f'{num} é primo e está no índice {i}')
     else:
-        print("Número não é primo")
-# while (whileCont > 0):
-#     if numDigitado % whileCont == 0:
-#         qtdDivExatas += 1
-#     whileCont -= 1
+        print(f'{num} NÃO é primo e está no índice {i}')
+        

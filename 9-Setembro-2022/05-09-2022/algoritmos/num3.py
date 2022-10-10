@@ -15,9 +15,13 @@ for i in range(len(arrayS)):
 
 
 iguais = []
-for i in range(len(arrayS)):
-    for j in range(len(arrayR)):
-        if arrayS[i] == arrayR[j]:
-            iguais.append(arrayR[j])
+# for i in range(len(arrayS)):
+#     for j in range(len(arrayR)):
+#         if arrayS[i] == arrayR[j]:
+#             iguais.append(arrayR[j])
 
-print(f'\nItens iguais nas listas: {iguais}')            
+for num in arrayS:
+    if num in arrayR:
+        iguais.append(num)
+
+print(f'\nItens iguais nos vetores: {iguais}')            
