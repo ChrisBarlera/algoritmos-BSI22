@@ -1,8 +1,11 @@
-def intervalo_1_ate_n(n):
+def impares_intervalo_1_ate_n(n):
     if n > 1:
-        pass
+        print("\nÍmpares do intervalo até o número:")
+        for i in range(1, n+1):
+            if i % 2 != 0:
+                print(i)
     else:
-        pass
+        print("Valor inserido inválido")
 
-x = 1
-intervalo_1_ate_n(x)
+x = int(input("Digite um inteiro: "))
+impares_intervalo_1_ate_n(x)
