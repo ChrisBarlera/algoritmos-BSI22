@@ -1,4 +1,2 @@
 # Descrição
-Aula de desenvolvimento do [trabalho final](./Trabalho%20Copa%20do%20Mundo.pdf) desta disciplina.
-
-<!-- mudar o link do trabalho final -->
+Aula de desenvolvimento do [trabalho final](https://github.com/ChrisBarlera/trabalho-final-algoritmosBSI2) desta disciplina.
